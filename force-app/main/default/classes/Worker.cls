@@ -1,5 +1,7 @@
 public with sharing class Worker {
     
+    // this is a test
+    
     public Boolean mErrorRaised { get; private set; }
 
     public void doSomething() {
