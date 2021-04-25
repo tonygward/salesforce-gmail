@@ -2,6 +2,7 @@ public with sharing class Worker {
     
     // this is a test
     // so is this (again)
+    // another test
     
     public Boolean mErrorRaised { get; private set; }
 
