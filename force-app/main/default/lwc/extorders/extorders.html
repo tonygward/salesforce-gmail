@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>        
+        Current Order Salesforce Id: {recordId}<br />
+        <lightning-badge label="Order Details"></lightning-badge>
+        <template if:true={orderDetails}>
+            <lightning-datatable key-field="id" data={orderDetails} columns={orderDetailColumns}></lightning-datatable>
+        </template>        
+        <template if:true={error}>
+            Error
+        </template>        
+    </lightning-card>
+</template>
