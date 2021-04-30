@@ -13,7 +13,6 @@
         <locationY>200</locationY>
         <actionName>SlackOpportunityPublisher</actionName>
         <actionType>apex</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <processMetadataValues>
                 <name>dataType</name>
